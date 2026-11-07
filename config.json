@@ -1,0 +1,41 @@
+{
+    "_nota":  "Valori di DEFAULT dell\u0027app (funzionano offline). Lo stesso file, ospitato su GitHub Pages, puo\u0027 sovrascriverli senza nuova build. Nessun server nostro, nessun dato personale.",
+    "version":  1,
+    "ads":  {
+                "interstitial_every_n_levels":  3,
+                "interstitial_min_seconds_between":  60,
+                "interstitial_on_app_open":  false,
+                "interstitial_during_play":  false,
+                "banner_in_menus_only":  true,
+                "rewarded_continue_enabled":  true,
+                "rewarded_continue_rows_cleared":  2,
+                "rewarded_continue_max_per_level":  1,
+                "ads_from_level":  7
+            },
+    "gameplay":  {
+                     "undo_per_level":  1,
+                     "speedup_enabled":  true,
+                     "launch_point_choice_enabled":  true,
+                     "overload_bounces":  4,
+                     "overload_damage":  5,
+                     "auto_speed_seconds":  6
+                 },
+    "daily_challenge":  {
+                            "enabled":  true,
+                            "seed_mode":  "date_utc",
+                            "unlock_after_level":  10
+                        },
+    "events":  [
+
+               ],
+    "cross_promo":  {
+                        "enabled":  true,
+                        "apps":  [
+
+                                 ]
+                    },
+    "creator":  {
+                    "enabled":  true,
+                    "after_levels":  8
+                }
+}
